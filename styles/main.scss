@@ -45,3 +45,22 @@ h1 {
     padding: 50px 0px;
     margin: 50px 0px
 }
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: $brown-2;
+    color: $cream;
+    .fa {
+        color: $yellow;
+    }
+    .card-header {
+        border: none;
+    }
+}
+
+.blockquote-footer{
+    color: $white-alt-2;
+
+}
