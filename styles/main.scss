@@ -36,3 +36,12 @@ h1 {
         width: 100px;
     }
 }
+
+#special-bar {
+    background-image: url("../img/coffee-shop-header-3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color:$white-alt;
+    padding: 50px 0px;
+    margin: 50px 0px
+}
