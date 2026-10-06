@@ -15,10 +15,208 @@
 	<link rel="stylesheet" href="styles/main.scss"/>
 </head>
 <body>
+    <header class="container">
+        <div>
+            <p class="logo-text">Simply Coffee</p>
+            <p>WELCOME</p>
+            <h1>We serve the richest coffee in the city!</h1>
+            <p>Doppio aroma, flavour, turkish latte cappuccino ut extra  percolator robust redeye siphon. </p>
+            <button class="btn btn-primary">Order Now</button>
+        </div>
+
+    </header>
+    <main class="container">
+
+    <!-- coffee icon bar-->
+    <section>
+        <div>
+            <i class="fa fa-snowflake-o fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-coffee fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-fire fa-3x" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <!-- Coffee Display Options -->
+    <section>
+        <h2>Our Coffee Options</h2>
+        <div id="carouselCoffee" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/coffee-cups-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/coffee-cups-2.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/coffee-cups-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCoffee" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCoffee" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </section>
+    <!-- Coffee Specials-->
+    <section>
+        <h2>Check Out The Weekly specials</h2>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#specials">
+          Specials
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="specials" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Specials</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="row">
+        <!-- Review Card Column-->
+        <div class="col">
+            <div class="card">
+              <div class="card-header">
+                  <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                  <i class="fa fa-star-o fa-1x" aria-hidden="true"></i>
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+        </div>
+        <!-- Review Card Column-->
+        <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star-o fa-1x" aria-hidden="true"></i>
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+        </div>
+
+        <!-- Review Card Column-->
+        <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-star-o fa-1x" aria-hidden="true"></i>
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+        </div>
 
 
 
+    </main>
+    <!-- Footer -->
+    <!-- Mailling List-->
+    <section class="container">
+        <div>
+        <h3>Join in and get 15% off!</h3>
+        <p>Subscribe to our newsletter in get 15% off discount code.</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Subcribe</button>
+        </form>
+        </div>
+    </section>
 
+    <footer class="container text-center">
+        <div class="row">
+            <div class="col">
+                 <p class="logo-text">Simply Coffee</p>
+            </div>
+            <div class="col">
+                About us
+            </div>
+            <div class="col">
+                <p>Social Media</p>
+            </div>
+        </div>
+    </footer>
+
+</section>
 <!-- Bootstrap -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
