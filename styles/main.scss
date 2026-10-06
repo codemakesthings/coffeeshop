@@ -1,0 +1,27 @@
+@import "colors";
+
+
+header {
+    background-image: url("../img/coffee-shop-header-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color:$white-alt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .btn-primary {
+        background-color: $white-alt;
+        color: $black-alt;
+        ::hover {
+            color: $white-alt;
+            background-color: $black-alt;
+        }
+    }
+}
+
+.logo-text {
+    font-size: 2em;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin-top: 0px;
+}
