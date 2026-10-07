@@ -9,14 +9,11 @@ header {
     background-repeat: no-repeat;
     color:$white-alt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    .btn-primary {
-        background-color: $white-alt;
-        color: $black-alt;
-        ::hover {
-            color: $white-alt;
-            background-color: $black-alt;
-        }
-    }
+}
+
+.btn-primary {
+    background-color: $white-alt;
+    color: $black-alt;
 }
 
 .logo-text {
