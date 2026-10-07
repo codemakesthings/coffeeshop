@@ -20,9 +20,16 @@ header {
 
 .btn-primary:hover {
      background-color: $yellow;
+
 }
 
+.carousel-caption {
+    background: rgba(226, 217, 200, 0.8) ;
 
+    padding-left: 1rem;
+    padding-right: 1rem;
+     border-radius: 5px;
+}
 .logo-text {
     font-size: 2em;
 }
