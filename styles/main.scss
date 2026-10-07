@@ -16,11 +16,15 @@ header {
     background-color: $white-alt;
     color: $black-alt;
     border-color: $black-alt;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .btn-primary:hover {
      background-color: $yellow;
-
+     border-color: $black-alt;
 }
 
 .carousel-caption {
