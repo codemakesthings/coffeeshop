@@ -14,6 +14,11 @@ header {
 .btn-primary {
     background-color: $white-alt;
     color: $black-alt;
+    border-color: $black-alt;
+}
+
+.btn-primary:hover {
+     background-color: $yellow;
 }
 
 .logo-text {
